@@ -12,14 +12,22 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 ## Survey Paper
 
 
-- [A Survey of Language Model-based Dialogue System] :fire::fire::fire::fire::fire:
+- [A Survey of Language Model-based Dialogue System](https://arxiv.org/abs/2311.16789) :fire::fire::fire::fire::fire:
+
 - [End-to-end Task-oriented Dialogue: A Survey of Tasks, Methods, and Future Directions](https://github.com/ruleGreen/Survey-Evolution-DS.git) [End-to-end TOD][EMNLP 2023] :fire::fire::fire:
+
 - [Recent advances in deep learning based dialogue systems: a systematic survey](https://sentic.net/dialogue-systems-survey.pdf) [Artificial Intelligence Review 2023] :fire::fire::fire:
+
 - [A Survey on Recent Advances and Challenges in Reinforcement Learning Methods for Task-oriented Dialogue Policy Learning](https://link.springer.com/article/10.1007/s11633-022-1347-y)[DPL][Machine Intelligence Research 2023] :fire:
+
 - [A Survey on Proactive Dialogue Systems: Problems, Methods, and Prospects](https://arxiv.org/abs/2305.02750) [ODD][IJCAI 2023] :fire::fire:
+
 - [Let's Negotiate! A Survey of Negotiation Dialogue Systems](https://arxiv.org/pdf/2212.09072.pdf) [ODD][Arxiv 2022]
+
 - [Recent advances and challenges in task-oriented dialog systems](https://link.springer.com/article/10.1007/s11431-020-1692-3)[TOD][SCTC 2020]
+
 - [Challenges in Building Intelligent Open-domain Dialog Systems](https://dl.acm.org/doi/abs/10.1145/3383123) [ODD][TOIS 2020]
+
 - [A Survey on Dialogue Systems: Recent Advances and New Frontiers](https://dl.acm.org/doi/10.1145/3166054.3166058) [TOD][ODD][SIGKDD 2017]
 
 
@@ -39,8 +47,11 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 ## 3rd Stage -- PLM: Fusion Starts!
 
 - [Improving Factual Consistency for Knowledge-Grounded Dialogue Systems via Knowledge Enhancement and Alignment](https://arxiv.org/abs/2310.08372.pdf) [ODD][EMNLP 2023]
+
 - [JoTR: A Joint Transformer and Reinforcement Learning Framework for Dialog Policy Learning](https://arxiv.org/abs/2309.00230.pdf) [DPL][TOD][Arxiv 2023]
+
 - [Retrieval-free Knowledge Injection through Multi-Document Traversal for Dialogue Models](https://aclanthology.org/2023.acl-long.364/) [ODD][ACL 2023]
+
 - [Integrating Pretrained Language Model for Dialogue Policy Evaluation](https://ieeexplore.ieee.org/abstract/document/9747593.pdf) :fire::fire::fire: first work of RLAIF in DPL
 
 ### Fusions within TOD
@@ -61,8 +72,11 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 ### Fusion between DM and LLM
 
 - **LLaMA2-Chat** Llama 2: Open Foundation and Fine-Tuned Chat Models
+
 - **Parrot**: Enhancing Multi-Turn Chat Models by Learning to Ask Questions
+
 - Enhancing Chat Language Models by Scaling High-quality Instructional Conversations
+
 - **BlenderBot 3**: a deployed conversational agent that continually learns to responsibly engage
 
 
@@ -70,7 +84,7 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 - [TPE: Towards Better Compositional Reasoning over Conceptual Tools with Multi-persona Collaboration](https://arxiv.org/abs/2309.16090.pdf) [ODD][Arxiv 2023] :fire::fire::fire::fire::fire: language agent, tool learning
 
-- [Large Language Models as Source Planner for Personalized Knowledge-grounded Dialogues](https://arxiv.org/pdf/2310.08840.pdf) [ODD][EMNLP 2023]
+- **SAFARI:** [Large Language Models as Source Planner for Personalized Knowledge-grounded Dialogues](https://arxiv.org/pdf/2310.08840.pdf) [ODD][EMNLP 2023] :fire::fire::fire::fire::fire: related work: Self-RAG, ToolkenGPT, RAG
 
 - [Cue-CoT: Chain-of-thought Prompting for Responding to In-depth Dialogue Questions with LLMs](https://arxiv.org/pdf/2305.11792.pdf) [ODD][EMNLP 2023] :fire::fire::fire: linguistic cues
 
