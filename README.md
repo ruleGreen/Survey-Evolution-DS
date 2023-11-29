@@ -9,10 +9,15 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 - Open-domain Dialogue System (ODD)
 - Unified Dialogue System (UniDS)
 
+## The Evolution of LM-based Dialogue System
+
+![Alt text](image-2.png)
+
+![Alt text](image-1.png)
+
 ## Survey Paper
 
-
-- [A Survey of Language Model-based Dialogue System](https://arxiv.org/abs/2311.16789) :fire::fire::fire::fire::fire:
+- [A Survey of Language Model-based Dialogue System](https://arxiv.org/abs/2311.16789) :fire::fire::fire::fire::fire: we write a blog for better understanding: click [here](https://candle-walker-56d.notion.site/810f553406cb42558c41d00a560467cf?pvs=4).
 
 - [End-to-end Task-oriented Dialogue: A Survey of Tasks, Methods, and Future Directions](https://github.com/ruleGreen/Survey-Evolution-DS.git) [End-to-end TOD][EMNLP 2023] :fire::fire::fire:
 
