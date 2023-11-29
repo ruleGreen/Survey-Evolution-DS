@@ -11,9 +11,10 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 ## The Evolution of LM-based Dialogue System
 
-![Alt text](image-2.png)
+![Alt text](figures/image-2.png)
 
-![Alt text](image-1.png)
+<img src="figures/image-1.png" width="300"/>
+
 
 ## Survey Paper
 
@@ -59,13 +60,13 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 - [Integrating Pretrained Language Model for Dialogue Policy Evaluation](https://ieeexplore.ieee.org/abstract/document/9747593.pdf) :fire::fire::fire: first work of RLAIF in DPL
 
-### Fusions within TOD
+### 3.1: Fusions within TOD
 
 - [Soloist: Building Task Bots at Scale with Transfer Learning and Machine Teaching](https://aclanthology.org/2021.tacl-1.49/) [TACL 2021]
 
 - **PPTOD**: [Multi-Task Pre-Training for Plug-and-Play Task-Oriented Dialogue System](https://aclanthology.org/2022.acl-long.319/) [ACL 2022]
 
-### Fusion between TOD with ODD
+### 3.2: Fusion between TOD with ODD
 
 - [Q-TOD: A Query-driven Task-oriented Dialogue System](https://aclanthology.org/2022.emnlp-main.489.pdf) [TOD -> ODD][EMNLP 2022]
 
@@ -74,7 +75,7 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 - [GODEL: Large-Scale Pre-Training for Goal-Directed Dialog](https://arxiv.org/abs/2206.11309) [TOD -> ODD][Arxiv 2022][[Code](https://github.com/microsoft/GODEL)]
 
 
-### Fusion between DM and LLM
+### 3.3: Fusion between DM and LLM
 
 - **LLaMA2-Chat** Llama 2: Open Foundation and Fine-Tuned Chat Models
 
@@ -113,8 +114,9 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 - [CharacterChat: Supporting the Creation of Fictional Characters through Conversation and Progressive Manifestation with a Chatbot](https://arxiv.org/abs/2106.12314.pdf)
 
 
-## What's the future?
+## What's the future? Language Agents?
 
+![Alt text](figures/image.png)
 
 
 ## Other Useful Resourecs
@@ -123,7 +125,7 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 2. https://github.com/iwangjian/Paper-Reading#knowledge-grounded-dialogue
 
 
-welcome to cite our survey paper.
+Welcome to cite our survey paper.
 
 ```
 @misc{wang2023survey,
