@@ -20,23 +20,26 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 - [A Survey of Language Model-based Dialogue System](https://arxiv.org/abs/2311.16789) :fire::fire::fire::fire::fire: we write a blog for better understanding: click [here](https://candle-walker-56d.notion.site/810f553406cb42558c41d00a560467cf?pvs=4).
 
-- [End-to-end Task-oriented Dialogue: A Survey of Tasks, Methods, and Future Directions](https://github.com/ruleGreen/Survey-Evolution-DS.git) [End-to-end TOD][EMNLP 2023] :fire::fire::fire:
+- [End-to-end Task-oriented Dialogue: A Survey of Tasks, Methods, and Future Directions](https://github.com/ruleGreen/Survey-Evolution-DS.git) `End-to-end TOD` `EMNLP 2023` :fire::fire::fire:
 
-- [Recent advances in deep learning based dialogue systems: a systematic survey](https://sentic.net/dialogue-systems-survey.pdf) [Artificial Intelligence Review 2023] :fire::fire::fire:
+- [Recent advances in deep learning based dialogue systems: a systematic survey](https://sentic.net/dialogue-systems-survey.pdf) `Artificial Intelligence Review 2023` :fire::fire::fire:
 
-- [A Survey on Recent Advances and Challenges in Reinforcement Learning Methods for Task-oriented Dialogue Policy Learning](https://link.springer.com/article/10.1007/s11633-022-1347-y)[DPL][Machine Intelligence Research 2023] :fire:
+- [A Survey on Recent Advances and Challenges in Reinforcement Learning Methods for Task-oriented Dialogue Policy Learning](https://link.springer.com/article/10.1007/s11633-022-1347-y)`DPL` `Machine Intelligence Research 2023` :fire:
 
-- [A Survey on Proactive Dialogue Systems: Problems, Methods, and Prospects](https://arxiv.org/abs/2305.02750) [ODD][IJCAI 2023] :fire::fire:
+- [A Survey on Proactive Dialogue Systems: Problems, Methods, and Prospects](https://arxiv.org/abs/2305.02750) `ODD` `IJCAI 2023` :fire::fire:
 
-- [Let's Negotiate! A Survey of Negotiation Dialogue Systems](https://arxiv.org/pdf/2212.09072.pdf) [ODD][Arxiv 2022]
+- [Let's Negotiate! A Survey of Negotiation Dialogue Systems](https://arxiv.org/pdf/2212.09072.pdf) `ODD` `Arxiv 2022`
 
-- [Recent advances and challenges in task-oriented dialog systems](https://link.springer.com/article/10.1007/s11431-020-1692-3)[TOD][SCTC 2020]
+- [Recent advances and challenges in task-oriented dialog systems](https://link.springer.com/article/10.1007/s11431-020-1692-3)`TOD` `SCTC 2020`
 
 - [Challenges in Building Intelligent Open-domain Dialog Systems](https://dl.acm.org/doi/abs/10.1145/3383123) [ODD][TOIS 2020]
 
 - [A Survey on Dialogue Systems: Recent Advances and New Frontiers](https://dl.acm.org/doi/10.1145/3166054.3166058) [TOD][ODD][SIGKDD 2017]
 
 
+## Dataset Paper
+
+- [INSCIT: Information-Seeking Conversations with Mixed-Initiative Interactions](https://arxiv.org/abs/2207.00746.pdf) `TACL 2022`
 
 ## 1st Stage -- SLM: Early Stage
 
@@ -47,7 +50,7 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 - [End-to-End Learning of Task-Oriented Dialogs](https://aclanthology.org/N18-4010/)[End-to-end TOD][NAACL 2018] first E2E TOD
 
-
+- [Assigning Personality/Profile to a Chatting Machine for Coherent Conversation Generation]
 
 
 ## 3rd Stage -- PLM: Fusion Starts!
@@ -58,13 +61,21 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 - [Retrieval-free Knowledge Injection through Multi-Document Traversal for Dialogue Models](https://aclanthology.org/2023.acl-long.364/) [ODD][ACL 2023]
 
+- [Learning to Generate Prompts for Dialogue Generation through Reinforcement Learning]
+
 - [Integrating Pretrained Language Model for Dialogue Policy Evaluation](https://ieeexplore.ieee.org/abstract/document/9747593.pdf) :fire::fire::fire: first work of RLAIF in DPL
+
+- [Re3Dial: Retrieve, Reorganize and Rescale Conversations for Long-Turn Open-Domain Dialogue Pre-training]
+
+- [Personalized Dialogue Generation with Persona-Adaptive Attention]
 
 ### 3.1: Fusions within TOD
 
 - [Soloist: Building Task Bots at Scale with Transfer Learning and Machine Teaching](https://aclanthology.org/2021.tacl-1.49/) [TACL 2021]
 
 - **PPTOD**: [Multi-Task Pre-Training for Plug-and-Play Task-Oriented Dialogue System](https://aclanthology.org/2022.acl-long.319/) [ACL 2022]
+
+- [Modularized Pre-Training for End-to-End Task-Oriented Dialogue]
 
 ### 3.2: Fusion between TOD with ODD
 
@@ -74,6 +85,7 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 - [GODEL: Large-Scale Pre-Training for Goal-Directed Dialog](https://arxiv.org/abs/2206.11309) [TOD -> ODD][Arxiv 2022][[Code](https://github.com/microsoft/GODEL)]
 
+- [Enabling Semi-Structured Knowledge Access via a Question-Answering Module in Task-oriented Dialogue Systems]
 
 ### 3.3: Fusion between DM and LLM
 
@@ -85,18 +97,26 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 - **BlenderBot 3**: a deployed conversational agent that continually learns to responsibly engage
 
+- **Pangu-Bot**: Efficient Generative Dialogue Pre-training from Pre-trained Langauge Model
+
 
 ## 4nd Stage -- LLM-based Dialogue System
 
+
 - [TPE: Towards Better Compositional Reasoning over Conceptual Tools with Multi-persona Collaboration](https://arxiv.org/abs/2309.16090.pdf) [ODD][Arxiv 2023] :fire::fire::fire::fire::fire: language agent, tool learning
+
+- [ChatCoT: Tool-augmented Chain-of-Thought Reasoning on Chat-based Large Language Models] 
+
+- [PLUG-AND-PLAY POLICY PLANNER FOR LARGE LANGUAGE MODEL POWERED DIALOGUE AGENTS](https://arxiv.org/pdf/2311.00262.pdf)  [Arxiv 2023]
 
 - **SAFARI:** [Large Language Models as Source Planner for Personalized Knowledge-grounded Dialogues](https://arxiv.org/pdf/2310.08840.pdf) [ODD][EMNLP 2023] :fire::fire::fire::fire::fire: related work: Self-RAG, ToolkenGPT, RAG
 
 - [Cue-CoT: Chain-of-thought Prompting for Responding to In-depth Dialogue Questions with LLMs](https://arxiv.org/pdf/2305.11792.pdf) [ODD][EMNLP 2023] :fire::fire::fire: linguistic cues
 
+- [ChatPLUG: Open-Domain Generative Dialogue System with Internet-Augmented Instruction Tuning for Digital Human]
+
 - [Mirages: On Anthropomorphism in Dialogue Systems](https://arxiv.org/pdf/2305.09800v1.pdf) [ODD] linguistic cues
 
-- [Target-oriented Proactive Dialogue Systems with Personalization: Problem Formulation and Dataset Curation](https://arxiv.org/pdf/2310.07397.pdf) [TOD][EMNLP 2023]
 - [Prompt-Based Monte-Carlo Tree Search for Goal-Oriented Dialogue Policy Planning](https://arxiv.org/abs/2305.13660.pdf) [TOD][DPL][EMNLP 2023]
 
 - [Prompting and Evaluating Large Language Models for Proactive Dialogues: Clarification, Target-guided, and Non-collaboration](https://arxiv.org/abs/2305.13626.pdf) [ODD][Proactive][EMNLP 2023]
@@ -109,9 +129,18 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 - [Prompted LLMs as Chatbot Modules for Long Open-domain Conversation](https://aclanthology.org/2023.findings-acl.277/) [ODD][Memory][ACL 2023]
 
-#### Persona/Character/Profile/Role
+### Persona/Character/Profile/Role
 
 - [CharacterChat: Supporting the Creation of Fictional Characters through Conversation and Progressive Manifestation with a Chatbot](https://arxiv.org/abs/2106.12314.pdf)
+
+- [What, When, and How to ground: Designing User Persona-Aware Conversational Agents for Engaging Dialogue]
+
+
+### Proactive
+
+- [Target-oriented Proactive Dialogue Systems with Personalization: Problem Formulation and Dataset Curation](https://arxiv.org/pdf/2310.07397.pdf) `ODD` `EMNLP 2023`
+
+- [Rethinking Conversational Agents in the Era of LLMs: Proactivity, Non-collaborativity, and Beyond](https://dl.acm.org/doi/abs/10.1145/3624918.3629548)  `ODD` `SIGIR-AP 2023`
 
 
 ## What's the future? Language Agents?
