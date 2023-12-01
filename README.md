@@ -115,43 +115,48 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 ## 4nd Stage -- LLM-based Dialogue System
 
-
-- [TPE: Towards Better Compositional Reasoning over Conceptual Tools with Multi-persona Collaboration](https://arxiv.org/abs/2309.16090.pdf) `ODD` `Arxiv 2023` :fire::fire::fire::fire::fire: language agent, tool learning
-
-- [PLUG-AND-PLAY POLICY PLANNER FOR LARGE LANGUAGE MODEL POWERED DIALOGUE AGENTS](https://arxiv.org/pdf/2311.00262.pdf)  `Arxiv 2023`
-
-- **SAFARI:** [Large Language Models as Source Planner for Personalized Knowledge-grounded Dialogues](https://arxiv.org/pdf/2310.08840.pdf) `ODD` `EMNLP 2023` :fire::fire::fire::fire::fire: related work: Self-RAG, ToolkenGPT, RAG
+### 4.1: Internal Reasoning
 
 - [Cue-CoT: Chain-of-thought Prompting for Responding to In-depth Dialogue Questions with LLMs](https://arxiv.org/pdf/2305.11792.pdf) `ODD` `EMNLP 2023` :fire::fire::fire: linguistic cues
-
-- [ChatCoT: Tool-augmented Chain-of-Thought Reasoning on Chat-based Large Language Models](https://arxiv.org/abs/2305.14323) `EMNLP 2023`
-
-
-- [Towards LLM-driven Dialogue State Tracking](https://arxiv.org/pdf/2310.14970.pdf) `DST` `EMNLP 2023` instruction-tuning
-
-- Multi-Source Multi-Type Knowledge Exploration and Exploitation for Dialogue Generation `EMNLP 2023`
-
-- Learning Retrieval Augmentation for Personalized Dialogue Generation `EMNLP 2023`
-
-- TOD-Flow: Modeling the Structure of Task-Oriented Dialogues `EMNLP 2023`
-
-- Enhancing Task-oriented Dialogue Systems with Generative Post-processing Networks `EMNLP 2023`
-
 
 - [Symbolic Planning and Code Generation for Grounded Dialogue](https://arxiv.org/pdf/2310.17140v1.pdf) `TOD` `EMNLP 2023` [[code]](https://github.com/justinchiu/onecommon-gpt) interesting
 
 
 - Scalable-DSC: A Structural Template Prompt Approach to Scalable Dialogue State Correction `EMNLP 2023`
 
-- [Retrieval-Generation Alignment for End-to-End Task-Oriented Dialogue System](https://arxiv.org/pdf/2310.08877v2.pdf) `EMNLP 2023` T5 and ChatGPT as generator, related to Q-TOD, Dual-Feedback?
-
-- [ChatPLUG: Open-Domain Generative Dialogue System with Internet-Augmented Instruction Tuning for Digital Human](https://arxiv.org/abs/2304.07849) 
-
 - [Mirages: On Anthropomorphism in Dialogue Systems](https://arxiv.org/pdf/2305.09800v1.pdf) `ODD` `EMNLP 2023` linguistic cues
 
 - [Prompt-Based Monte-Carlo Tree Search for Goal-Oriented Dialogue Policy Planning](https://arxiv.org/abs/2305.13660.pdf) `TOD` `DPL` `EMNLP 2023`
 
+### Proactive
+
+- [Prompting and Evaluating Large Language Models for Proactive Dialogues: Clarification, Target-guided, and Non-collaboration](https://arxiv.org/abs/2305.13626.pdf) `ODD` `EMNLP 2023`
+
+- [Target-oriented Proactive Dialogue Systems with Personalization: Problem Formulation and Dataset Curation](https://arxiv.org/pdf/2310.07397.pdf) `ODD` `EMNLP 2023`
+
+- [Rethinking Conversational Agents in the Era of LLMs: Proactivity, Non-collaborativity, and Beyond](https://dl.acm.org/doi/abs/10.1145/3624918.3629548)  `ODD` `SIGIR-AP 2023`
+
+### Empathetic Dialogue
+
+- [E-CORE: Emotion Correlation Enhanced Empathetic Dialogue Generation](https://arxiv.org/abs/2311.15016.pdf) `EMNLP 2023`
+
+- [Commonsense-Aware Prompting for Controllable Empathetic Dialogue Generation](https://arxiv.org/abs/2302.01441)  `ODD` `EMNLP 2023`
+
+
+### 4.2: External Acting / Interactions
+
+- **SAFARI:** [Large Language Models as Source Planner for Personalized Knowledge-grounded Dialogues](https://arxiv.org/pdf/2310.08840.pdf) `ODD` `EMNLP 2023` :fire::fire::fire::fire::fire: related work: Self-RAG, ToolkenGPT, RAG
+
+- [ChatCoT: Tool-augmented Chain-of-Thought Reasoning on Chat-based Large Language Models](https://arxiv.org/abs/2305.14323) `EMNLP 2023`
+
+- [Towards LLM-driven Dialogue State Tracking](https://arxiv.org/pdf/2310.14970.pdf) `DST` `EMNLP 2023` instruction-tuning
+
+- Multi-Source Multi-Type Knowledge Exploration and Exploitation for Dialogue Generation `EMNLP 2023`
+
+### Database
+
 -  [Are LLMs All You Need for Task-Oriented Dialogue?](https://aclanthology.org/2023.sigdial-1.21/) `TOD` `SIGDIAL 2023` all sub tasks
+
 
 ### Memory
 
@@ -171,11 +176,6 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 - [What, When, and How to ground: Designing User Persona-Aware Conversational Agents for Engaging Dialogue](https://aclanthology.org/2023.acl-industry.68/) `ACL 2023 Industry`
 
-### Empathetic Dialogue
-
-- [E-CORE: Emotion Correlation Enhanced Empathetic Dialogue Generation](https://arxiv.org/abs/2311.15016.pdf) `EMNLP 2023`
-
-- [Commonsense-Aware Prompting for Controllable Empathetic Dialogue Generation](https://arxiv.org/abs/2302.01441)  `ODD` `EMNLP 2023`
 
 ### Multilingual
 
@@ -183,18 +183,30 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 - [xDial-Eval: A Multilingual Open-Domain Dialogue Evaluation Benchmark](https://arxiv.org/pdf/2310.08958v1.pdf) `EMNLP 2023`
 
-### Proactive
 
-- [Prompting and Evaluating Large Language Models for Proactive Dialogues: Clarification, Target-guided, and Non-collaboration](https://arxiv.org/abs/2305.13626.pdf) `ODD` `EMNLP 2023`
+### 4.3: Reasoning + Acting
 
-- [Target-oriented Proactive Dialogue Systems with Personalization: Problem Formulation and Dataset Curation](https://arxiv.org/pdf/2310.07397.pdf) `ODD` `EMNLP 2023`
+- [TPE: Towards Better Compositional Reasoning over Conceptual Tools with Multi-persona Collaboration](https://arxiv.org/abs/2309.16090.pdf) `ODD` `Arxiv 2023` :fire::fire::fire::fire::fire: language agent, tool learning
 
-- [Rethinking Conversational Agents in the Era of LLMs: Proactivity, Non-collaborativity, and Beyond](https://dl.acm.org/doi/abs/10.1145/3624918.3629548)  `ODD` `SIGIR-AP 2023`
+- [PLUG-AND-PLAY POLICY PLANNER FOR LARGE LANGUAGE MODEL POWERED DIALOGUE AGENTS](https://arxiv.org/pdf/2311.00262.pdf)  `Arxiv 2023`
+
+
+- Learning Retrieval Augmentation for Personalized Dialogue Generation `EMNLP 2023`
+
+- TOD-Flow: Modeling the Structure of Task-Oriented Dialogues `EMNLP 2023`
+
+- Enhancing Task-oriented Dialogue Systems with Generative Post-processing Networks `EMNLP 2023`
+
+
+
+- [Retrieval-Generation Alignment for End-to-End Task-Oriented Dialogue System](https://arxiv.org/pdf/2310.08877v2.pdf) `EMNLP 2023` T5 and ChatGPT as generator, related to Q-TOD, Dual-Feedback?
+
+- [ChatPLUG: Open-Domain Generative Dialogue System with Internet-Augmented Instruction Tuning for Digital Human](https://arxiv.org/abs/2304.07849) 
 
 
 ## What's the future? Language Agents?
 
-![Alt text](figures/image.png)
+<img src="figures/image.png" width="400"/>
 
 
 ## Dataset Paper
