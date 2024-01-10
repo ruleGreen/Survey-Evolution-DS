@@ -117,6 +117,8 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 ### 4.1: Internal Reasoning
 
+-[Reverse Multi-Choice Dialogue Commonsense Inference with Graph-of-Thought](https://arxiv.org/abs/2312.15291) `AAAI 2024`
+
 - [Cue-CoT: Chain-of-thought Prompting for Responding to In-depth Dialogue Questions with LLMs](https://arxiv.org/pdf/2305.11792.pdf) `ODD` `EMNLP 2023` :fire::fire::fire: linguistic cues
 
 - [Symbolic Planning and Code Generation for Grounded Dialogue](https://arxiv.org/pdf/2310.17140v1.pdf) `TOD` `EMNLP 2023` [[code]](https://github.com/justinchiu/onecommon-gpt) interesting
@@ -142,16 +144,22 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 - [Commonsense-Aware Prompting for Controllable Empathetic Dialogue Generation](https://arxiv.org/abs/2302.01441)  `ODD` `EMNLP 2023`
 
+- [Harnessing the Power of Large Language Models for Empathetic Response Generation: Empirical Investigations and Improvements]
+
 
 ### 4.2: External Acting / Interactions
 
-- **SAFARI:** [Large Language Models as Source Planner for Personalized Knowledge-grounded Dialogues](https://arxiv.org/pdf/2310.08840.pdf) `ODD` `EMNLP 2023` :fire::fire::fire::fire::fire: related work: Self-RAG, ToolkenGPT, RAG
+- **SAFARI:** [Large Language Models as Source Planner for Personalized Knowledge-grounded Dialogues](https://arxiv.org/pdf/2310.08840.pdf) `ODD` `EMNLP 2023` :fire::fire::fire::fire::fire: related work: Self-RAG, ToolkenGPT, RAG. dependency between different sources
 
 - [ChatCoT: Tool-augmented Chain-of-Thought Reasoning on Chat-based Large Language Models](https://arxiv.org/abs/2305.14323) `EMNLP 2023`
 
 - [Towards LLM-driven Dialogue State Tracking](https://arxiv.org/pdf/2310.14970.pdf) `DST` `EMNLP 2023` instruction-tuning
 
 - Multi-Source Multi-Type Knowledge Exploration and Exploitation for Dialogue Generation `EMNLP 2023`
+
+- [PLUG-AND-PLAY POLICY PLANNER FOR LARGE LANGUAGE MODEL POWERED DIALOGUE AGENTS](https://arxiv.org/pdf/2311.00262.pdf)  `Arxiv 2023`
+
+- [Manual-Guided Dialogue for Flexible Conversational Agents](https://arxiv.org/abs/2208.07597.pdf)
 
 ### Database
 
@@ -166,7 +174,7 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 ### Persona/Character/Profile/Role
 
-- [PK-ICR: Persona-Knowledge Interactive Multi-Context Retrieval for Grounded Dialogue](https://arxiv.org/pdf/2302.06674.pdf) `EMNLP 2023`
+- [PK-ICR: Persona-Knowledge Interactive Multi-Context Retrieval for Grounded Dialogue](https://arxiv.org/pdf/2302.06674.pdf) `EMNLP 2023` dependency between different sources
 
 - [Large Language Models Meet Harry Potter: A Dataset for Aligning Dialogue Agents with Characters](https://arxiv.org/abs/2211.06869.pdf) `Dataset` `EMNLP 2023`
 
@@ -188,15 +196,11 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 - [TPE: Towards Better Compositional Reasoning over Conceptual Tools with Multi-persona Collaboration](https://arxiv.org/abs/2309.16090.pdf) `ODD` `Arxiv 2023` :fire::fire::fire::fire::fire: language agent, tool learning
 
-- [PLUG-AND-PLAY POLICY PLANNER FOR LARGE LANGUAGE MODEL POWERED DIALOGUE AGENTS](https://arxiv.org/pdf/2311.00262.pdf)  `Arxiv 2023`
-
-
 - Learning Retrieval Augmentation for Personalized Dialogue Generation `EMNLP 2023`
 
 - TOD-Flow: Modeling the Structure of Task-Oriented Dialogues `EMNLP 2023`
 
 - Enhancing Task-oriented Dialogue Systems with Generative Post-processing Networks `EMNLP 2023`
-
 
 
 - [Retrieval-Generation Alignment for End-to-End Task-Oriented Dialogue System](https://arxiv.org/pdf/2310.08877v2.pdf) `EMNLP 2023` T5 and ChatGPT as generator, related to Q-TOD, Dual-Feedback?
