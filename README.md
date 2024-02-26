@@ -99,7 +99,6 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 - [GODEL: Large-Scale Pre-Training for Goal-Directed Dialog](https://arxiv.org/abs/2206.11309) `TOD -> ODD` `Arxiv 2022` [[Code]](https://github.com/microsoft/GODEL)
 
-
 ### 3.3: Fusion between DM and LLM
 
 - **LLaMA2-Chat** [Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/abs/2307.09288) `Arxiv 2023`
@@ -112,10 +111,19 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 - [**Pangu-Bot**: Efficient Generative Dialogue Pre-training from Pre-trained Langauge Model](https://arxiv.org/abs/2203.17090) `Arxiv 2022`
 
+### Others
+
+- [Improving the Robustness of Knowledge-Grounded Dialogue via Contrastive Learning](https://arxiv.org/pdf/2401.04361.pdf) target noises in the input such as kg or misspelling in the query `ODD`
+
+
 
 ## 4nd Stage -- LLM-based Dialogue System
 
 ### 4.1: Internal Reasoning
+
+- [Investigating Content Planning for Navigating Trade-offs in Knowledge-Grounded Dialogue](https://arxiv.org/pdf/2402.02077.pdf) content planning similar with TPE
+
+- [COOPER: Coordinating Specialized Agents towards a Complex Dialogue Goal] `AAAI 2024`  multi-agent cue-cot？
 
 -[Reverse Multi-Choice Dialogue Commonsense Inference with Graph-of-Thought](https://arxiv.org/abs/2312.15291) `AAAI 2024`
 
@@ -129,6 +137,7 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 - [Mirages: On Anthropomorphism in Dialogue Systems](https://arxiv.org/pdf/2305.09800v1.pdf) `ODD` `EMNLP 2023` linguistic cues
 
 - [Prompt-Based Monte-Carlo Tree Search for Goal-Oriented Dialogue Policy Planning](https://arxiv.org/abs/2305.13660.pdf) `TOD` `DPL` `EMNLP 2023`
+
 
 ### Proactive
 
@@ -159,7 +168,11 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 - [PLUG-AND-PLAY POLICY PLANNER FOR LARGE LANGUAGE MODEL POWERED DIALOGUE AGENTS](https://arxiv.org/pdf/2311.00262.pdf)  `Arxiv 2023`
 
+- [Reinforcement Learning for Optimizing RAG for Domain Chatbots] `AAAI 2024 Workshop` using rl to determine whether or not to retrieve for domain chatbots
+
 - [Manual-Guided Dialogue for Flexible Conversational Agents](https://arxiv.org/abs/2208.07597.pdf)
+
+
 
 ### Database
 
@@ -183,6 +196,10 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 - [CharacterChat: Supporting the Creation of Fictional Characters through Conversation and Progressive Manifestation with a Chatbot](https://arxiv.org/abs/2106.12314.pdf)
 
 - [What, When, and How to ground: Designing User Persona-Aware Conversational Agents for Engaging Dialogue](https://aclanthology.org/2023.acl-industry.68/) `ACL 2023 Industry`
+
+- [Building Persona Consistent Dialogue Agents with Offline Reinforcement Learning](https://aclanthology.org/2023.emnlp-main.110.pdf) :fire: `EMNLP 2023` offline reinforcement learning
+
+- [Partner Personas Generation for Dialogue Response Generatio](https://aclanthology.org/2022.naacl-main.382/) `NAACL 2022` reinforcement learning
 
 
 ### Multilingual
@@ -208,9 +225,19 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 - [ChatPLUG: Open-Domain Generative Dialogue System with Internet-Augmented Instruction Tuning for Digital Human](https://arxiv.org/abs/2304.07849) 
 
 
+### Others
+
+- [Bootstrapping LLM-based Task-Oriented Dialogue Agents via Self-Talk](https://arxiv.org/pdf/2401.05033.pdf) `TOD` data augmentation
+
+- [Multi-User Chat Assistant (MUCA): a Framework Using LLMs to Facilitate Group Conversations](https://arxiv.org/pdf/2401.04883.pdf)
+
 ## What's the future? Language Agents?
 
 <img src="figures/image.png" width="400"/>
+
+### Multi-modal
+
+- [SIMMC 2.0: Situated Interactive Multimodal Conversational AI](https://arxiv.org/abs/2104.08667.pdf)
 
 
 ## Dataset Paper
@@ -222,6 +249,12 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 - **FoCus**: [Call for Customized Conversation: Customized Conversation Grounding Persona and Knowledge](https://arxiv.org/abs/2112.08619.pdf) `ODD` `AAAI 2022`
 
 - [KdConv: A Chinese Multi-domain Dialogue Dataset Towards Multi-turn Knowledge-driven Conversation](https://aclanthology.org/2020.acl-main.635/) `ODD` `ACL 2020` [[code]](https://github.com/thu-coai/KdConv)
+
+## Others
+
+- [AUTOREPLY: Detecting Nonsense in Dialogue Introspectively with Discriminative Replies](https://aclanthology.org/2023.findings-emnlp.23.pdf) `EMNLP2023`
+
+- [Instruct Once, Chat Consistently in Multiple Rounds: An Efficient Tuning Framework for Dialogue] `Tuning Method`
 
 ## Other Useful Resourecs
 
