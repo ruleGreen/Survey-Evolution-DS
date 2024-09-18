@@ -149,6 +149,8 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 ### Empathetic Dialogue
 
+- [EmoBench: Evaluating the Emotional Intelligence of Large Language Models](https://arxiv.org/pdf/2402.12071.pdf)
+
 - [E-CORE: Emotion Correlation Enhanced Empathetic Dialogue Generation](https://arxiv.org/abs/2311.15016.pdf) `EMNLP 2023`
 
 - [Commonsense-Aware Prompting for Controllable Empathetic Dialogue Generation](https://arxiv.org/abs/2302.01441)  `ODD` `EMNLP 2023`
@@ -157,6 +159,8 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 
 ### 4.2: External Acting / Interactions
+
+- [Hello Again! LLM-powered Personalized Agent for Long-term Dialogue](https://arxiv.org/abs/2406.05925.pdf) using memory/persona as external sources
 
 - **SAFARI:** [Large Language Models as Source Planner for Personalized Knowledge-grounded Dialogues](https://arxiv.org/pdf/2310.08840.pdf) `ODD` `EMNLP 2023` :fire::fire::fire::fire::fire: related work: Self-RAG, ToolkenGPT, RAG. dependency between different sources
 
@@ -179,11 +183,12 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 -  [Are LLMs All You Need for Task-Oriented Dialogue?](https://aclanthology.org/2023.sigdial-1.21/) `TOD` `SIGDIAL 2023` all sub tasks
 
 
-### Memory
+### Memory 
 
 - [MemoChat: Tuning LLMs to Use Memos for Consistent Long-Range Open-Domain Conversation](https://arxiv.org/pdf/2308.08239.pdf) `ODD` `Arxiv 2023`[[Code](https://github.com/LuJunru/MemoChat)]
 
 - [Prompted LLMs as Chatbot Modules for Long Open-domain Conversation](https://aclanthology.org/2023.findings-acl.277/) `ODD` `ACL 2023`
+
 
 ### Persona/Character/Profile/Role
 
@@ -255,6 +260,11 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 - [AUTOREPLY: Detecting Nonsense in Dialogue Introspectively with Discriminative Replies](https://aclanthology.org/2023.findings-emnlp.23.pdf) `EMNLP2023`
 
 - [Instruct Once, Chat Consistently in Multiple Rounds: An Efficient Tuning Framework for Dialogue] `Tuning Method`
+
+
+# Position and Future Directions
+
+- [Personalisation within bounds: A risk taxonomy and policy framework for the alignment of large language models with personalised feedback](https://arxiv.org/abs/2303.05453.pdf)
 
 ## Other Useful Resourecs
 
