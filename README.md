@@ -1,12 +1,13 @@
 # Survey-Evolution-DS
+
 This is the repo which records the evolution of LM-based dialogue system. We list works in each stage, and will constantly update it, welcome to raise a issue to add new works!!
 
 - Task-oriented Dialogue System (TOD)
-    - Natural Language Understanding (NLU)
-    - Dialogue State Tracking (DST)
-    - Dialogue Policy Learning (DST)
-    - Natural Language Generation (NLG)
-    - End-to-End TOD (E2E TOD)
+  - Natural Language Understanding (NLU)
+  - Dialogue State Tracking (DST)
+  - Dialogue Policy Learning (DST)
+  - Natural Language Generation (NLG)
+  - End-to-End TOD (E2E TOD)
 - Open-domain Dialogue System (ODD)
 - Unified Dialogue System (UniDS)
 
@@ -15,7 +16,6 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 ![Alt text](figures/image-2.png)
 
 <img src="figures/image-1.png" width="300"/>
-
 
 ## Survey Paper
 
@@ -37,18 +37,15 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 - [A Survey on Dialogue Systems: Recent Advances and New Frontiers](https://dl.acm.org/doi/10.1145/3166054.3166058) `TOD` `ODD` `SIGKDD 2017`
 
-
 ## 1st Stage -- SLM: Early Stage
 
 - Eliza, Alice, GUS
-
 
 ## 2nd Stage -- NLM: Independent Development
 
 - [End-to-End Learning of Task-Oriented Dialogs](https://aclanthology.org/N18-4010/)`E2E TOD` `NAACL 2018` first E2E TOD
 
 - [Assigning Personality/Profile to a Chatting Machine for Coherent Conversation Generation](https://arxiv.org/abs/1706.02861) `ODD` `IJCAI 2018`
-
 
 ## 3rd Stage -- PLM: Fusion Starts!
 
@@ -64,7 +61,6 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 - [JoTR: A Joint Transformer and Reinforcement Learning Framework for Dialog Policy Learning](https://arxiv.org/abs/2309.00230.pdf) `DPL` `TOD` `Arxiv 2023`
 
-
 - [Retrieval-free Knowledge Injection through Multi-Document Traversal for Dialogue Models](https://aclanthology.org/2023.acl-long.364/) `ODD` `ACL 2023`
 
 - [Learning to Generate Prompts for Dialogue Generation through Reinforcement Learning](https://arxiv.org/abs/2206.03931) `ODD` `Arixv 2022`
@@ -77,13 +73,11 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 - [Modularized Pre-Training for End-to-End Task-Oriented Dialogue](https://ieeexplore.ieee.org/abstract/document/10043710) `E2E TOD` `TASLP 2023`
 
-
 - **PPTOD**: [Multi-Task Pre-Training for Plug-and-Play Task-Oriented Dialogue System](https://aclanthology.org/2022.acl-long.319/) `E2E TOD` `ACL 2022`
 
 - [Soloist: Building Task Bots at Scale with Transfer Learning and Machine Teaching](https://aclanthology.org/2021.tacl-1.49/) `E2E TOD` `TACL 2021`
 
 - [MOSS: End-to-End Dialog System Framework with Modular Supervision](https://arxiv.org/abs/1909.05528.pdf) `AAAI 2020` first work for modular E2E TOD
-
 
 ### 3.2: Fusion between TOD with ODD
 
@@ -115,15 +109,13 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 - [Improving the Robustness of Knowledge-Grounded Dialogue via Contrastive Learning](https://arxiv.org/pdf/2401.04361.pdf) target noises in the input such as kg or misspelling in the query `ODD`
 
-
-
 ## 4nd Stage -- LLM-based Dialogue System
 
 ### 4.1: Internal Reasoning
 
 - [Investigating Content Planning for Navigating Trade-offs in Knowledge-Grounded Dialogue](https://arxiv.org/pdf/2402.02077.pdf) content planning similar with TPE
 
-- [COOPER: Coordinating Specialized Agents towards a Complex Dialogue Goal] `AAAI 2024`  multi-agent cue-cot？
+- [COOPER: Coordinating Specialized Agents towards a Complex Dialogue Goal] `AAAI 2024` multi-agent cue-cot？
 
 -[Reverse Multi-Choice Dialogue Commonsense Inference with Graph-of-Thought](https://arxiv.org/abs/2312.15291) `AAAI 2024`
 
@@ -131,13 +123,11 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 - [Symbolic Planning and Code Generation for Grounded Dialogue](https://arxiv.org/pdf/2310.17140v1.pdf) `TOD` `EMNLP 2023` [[code]](https://github.com/justinchiu/onecommon-gpt) interesting
 
-
 - Scalable-DSC: A Structural Template Prompt Approach to Scalable Dialogue State Correction `EMNLP 2023`
 
 - [Mirages: On Anthropomorphism in Dialogue Systems](https://arxiv.org/pdf/2305.09800v1.pdf) `ODD` `EMNLP 2023` linguistic cues
 
 - [Prompt-Based Monte-Carlo Tree Search for Goal-Oriented Dialogue Policy Planning](https://arxiv.org/abs/2305.13660.pdf) `TOD` `DPL` `EMNLP 2023`
-
 
 ### Proactive
 
@@ -145,7 +135,7 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 - [Target-oriented Proactive Dialogue Systems with Personalization: Problem Formulation and Dataset Curation](https://arxiv.org/pdf/2310.07397.pdf) `ODD` `EMNLP 2023`
 
-- [Rethinking Conversational Agents in the Era of LLMs: Proactivity, Non-collaborativity, and Beyond](https://dl.acm.org/doi/abs/10.1145/3624918.3629548)  `ODD` `SIGIR-AP 2023`
+- [Rethinking Conversational Agents in the Era of LLMs: Proactivity, Non-collaborativity, and Beyond](https://dl.acm.org/doi/abs/10.1145/3624918.3629548) `ODD` `SIGIR-AP 2023`
 
 ### Empathetic Dialogue
 
@@ -153,10 +143,9 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 - [E-CORE: Emotion Correlation Enhanced Empathetic Dialogue Generation](https://arxiv.org/abs/2311.15016.pdf) `EMNLP 2023`
 
-- [Commonsense-Aware Prompting for Controllable Empathetic Dialogue Generation](https://arxiv.org/abs/2302.01441)  `ODD` `EMNLP 2023`
+- [Commonsense-Aware Prompting for Controllable Empathetic Dialogue Generation](https://arxiv.org/abs/2302.01441) `ODD` `EMNLP 2023`
 
 - [Harnessing the Power of Large Language Models for Empathetic Response Generation: Empirical Investigations and Improvements]
-
 
 ### 4.2: External Acting / Interactions
 
@@ -170,25 +159,21 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 - Multi-Source Multi-Type Knowledge Exploration and Exploitation for Dialogue Generation `EMNLP 2023`
 
-- [PLUG-AND-PLAY POLICY PLANNER FOR LARGE LANGUAGE MODEL POWERED DIALOGUE AGENTS](https://arxiv.org/pdf/2311.00262.pdf)  `Arxiv 2023`
+- [PLUG-AND-PLAY POLICY PLANNER FOR LARGE LANGUAGE MODEL POWERED DIALOGUE AGENTS](https://arxiv.org/pdf/2311.00262.pdf) `Arxiv 2023`
 
 - [Reinforcement Learning for Optimizing RAG for Domain Chatbots] `AAAI 2024 Workshop` using rl to determine whether or not to retrieve for domain chatbots
 
 - [Manual-Guided Dialogue for Flexible Conversational Agents](https://arxiv.org/abs/2208.07597.pdf)
 
-
-
 ### Database
 
--  [Are LLMs All You Need for Task-Oriented Dialogue?](https://aclanthology.org/2023.sigdial-1.21/) `TOD` `SIGDIAL 2023` all sub tasks
+- [Are LLMs All You Need for Task-Oriented Dialogue?](https://aclanthology.org/2023.sigdial-1.21/) `TOD` `SIGDIAL 2023` all sub tasks
 
-
-### Memory 
+### Memory
 
 - [MemoChat: Tuning LLMs to Use Memos for Consistent Long-Range Open-Domain Conversation](https://arxiv.org/pdf/2308.08239.pdf) `ODD` `Arxiv 2023`[[Code](https://github.com/LuJunru/MemoChat)]
 
 - [Prompted LLMs as Chatbot Modules for Long Open-domain Conversation](https://aclanthology.org/2023.findings-acl.277/) `ODD` `ACL 2023`
-
 
 ### Persona/Character/Profile/Role
 
@@ -206,13 +191,11 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 - [Partner Personas Generation for Dialogue Response Generatio](https://aclanthology.org/2022.naacl-main.382/) `NAACL 2022` reinforcement learning
 
-
 ### Multilingual
 
 - [A Systematic Study of Performance Disparities in Multilingual Task-Oriented Dialogue Systems](https://arxiv.org/pdf/2310.12892v1.pdf) `EMNLP 2023`
 
 - [xDial-Eval: A Multilingual Open-Domain Dialogue Evaluation Benchmark](https://arxiv.org/pdf/2310.08958v1.pdf) `EMNLP 2023`
-
 
 ### 4.3: Reasoning + Acting
 
@@ -224,11 +207,9 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 - Enhancing Task-oriented Dialogue Systems with Generative Post-processing Networks `EMNLP 2023`
 
-
 - [Retrieval-Generation Alignment for End-to-End Task-Oriented Dialogue System](https://arxiv.org/pdf/2310.08877v2.pdf) `EMNLP 2023` T5 and ChatGPT as generator, related to Q-TOD, Dual-Feedback?
 
-- [ChatPLUG: Open-Domain Generative Dialogue System with Internet-Augmented Instruction Tuning for Digital Human](https://arxiv.org/abs/2304.07849) 
-
+- [ChatPLUG: Open-Domain Generative Dialogue System with Internet-Augmented Instruction Tuning for Digital Human](https://arxiv.org/abs/2304.07849)
 
 ### Others
 
@@ -243,7 +224,6 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 ### Multi-modal
 
 - [SIMMC 2.0: Situated Interactive Multimodal Conversational AI](https://arxiv.org/abs/2104.08667.pdf)
-
 
 ## Dataset Paper
 
@@ -261,16 +241,17 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 - [Instruct Once, Chat Consistently in Multiple Rounds: An Efficient Tuning Framework for Dialogue] `Tuning Method`
 
-
 # Position and Future Directions
 
 - [Personalisation within bounds: A risk taxonomy and policy framework for the alignment of large language models with personalised feedback](https://arxiv.org/abs/2303.05453.pdf)
+
+
+- [SELF-DIRECTED SYNTHETIC DIALOGUES AND REVISIONS TECHNICAL REPORT](https://arxiv.org/abs/2407.18421.pdf)
 
 ## Other Useful Resourecs
 
 1. https://www.promptingguide.ai/papers [prompting engineering papers]
 2. https://github.com/iwangjian/Paper-Reading#knowledge-grounded-dialogue
-
 
 ## To read
 
@@ -282,7 +263,7 @@ Welcome to cite our survey paper.
 
 ```
 @misc{wang2023survey,
-      title={A Survey of the Evolution of Language Model-Based Dialogue Systems}, 
+      title={A Survey of the Evolution of Language Model-Based Dialogue Systems},
       author={Hongru Wang and Lingzhi Wang and Yiming Du and Liang Chen and Jingyan Zhou and Yufei Wang and Kam-Fai Wong},
       year={2023},
       eprint={2311.16789},
@@ -290,4 +271,3 @@ Welcome to cite our survey paper.
       primaryClass={cs.CL}
 }
 ```
-
