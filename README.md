@@ -1,6 +1,7 @@
 # Survey-Evolution-DS
 This is the repo which records the evolution of LM-based dialogue system. We list works in each stage, and will constantly update it, welcome to raise a issue to add new works!!
 
+
 - Task-oriented Dialogue System (TOD)
     - Natural Language Understanding (NLU)
     - Dialogue State Tracking (DST)
@@ -9,6 +10,10 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
     - End-to-End TOD (E2E TOD)
 - Open-domain Dialogue System (ODD)
 - Unified Dialogue System (UniDS)
+
+## News
+
+- 8 Nov, 2024: We are happy to see renaissance of task-oriented dialogue system, which inspires lots of recent work, such as $\tau$-Bench, AppBench and so on.
 
 ## The Evolution of LM-based Dialogue System
 
@@ -159,6 +164,8 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 
 ### 4.2: External Acting / Interactions
+
+- [$\tau$-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains](https://arxiv.org/abs/2406.12045.pdf) `language agent` `task-oriented ds` :fire::fire::fire:
 
 - [Hello Again! LLM-powered Personalized Agent for Long-term Dialogue](https://arxiv.org/abs/2406.05925.pdf) using memory/persona as external sources
 
