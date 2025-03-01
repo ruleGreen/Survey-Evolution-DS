@@ -252,8 +252,11 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 - [Personalisation within bounds: A risk taxonomy and policy framework for the alignment of large language models with personalised feedback](https://arxiv.org/abs/2303.05453.pdf)
 
-
 - [SELF-DIRECTED SYNTHETIC DIALOGUES AND REVISIONS TECHNICAL REPORT](https://arxiv.org/abs/2407.18421.pdf)
+
+- [Can a Single Model Master Both Multi-turn Conversations and Tool Use? CoALM: A Unified Conversational Agentic Language Model](https://arxiv.org/pdf/2502.08820.pdf) :fire::fire:
+
+- [TOOLFLOW: Boosting LLM Tool-Calling Through Natural and Coherent Dialogue Synthesis](https://arxiv.org/pdf/2410.18447.pdf)
 
 ## Other Useful Resourecs
 
