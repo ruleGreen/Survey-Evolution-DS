@@ -261,12 +261,55 @@ This is the repo which records the evolution of LM-based dialogue system. We lis
 
 ## Applications
 
-### Human Assistant
+## Information-seeking and Decision-support
+
+### Customer Service:
+
+- WHEELS: A conversational system in the automobile classifieds domain
+- The JDDC Corpus: A Large-Scale Multi-Turn Chinese Dialogue Dataset for E-commerce Customer Service
+- Artificial intelligence application in e-commerce: Transforming customer service, personalization and marketing
+
+### Civil Service:
+
+- National strategies on Artificial Intelligence
+- Understanding the Determinants of Using Government AI-Chatbots by Citizens in Saudi Arabia
+- [https://www.tech.gov.sg/media/technews/govtech-team-behind-ask-jamie-government-chatbot](https://www.tech.gov.sg/media/technews/govtech-team-behind-ask-jamie-government-chatbot/)
+- https://insidegovuk.blog.gov.uk/2024/01/18/the-findings-of-our-first-generative-ai-experiment-gov-uk-chat/
+
+### Financial Robo-advisors
+
+- https://research.wealthfront.com/whitepapers/investment-methodology/
+- Artificial intelligence in banking and financial services
+
+### Others:
+
+- [Medical] Toward expert-level medical question answering with large language models
+- [Education] https://www.khanmigo.ai/
+- [Law] Lawyer GPT: A legal large language model with enhanced domain knowledge and reasoning capabilities
+
+## Task Orchestration and Execution
+
+### General Assistance:
 
 - [AppBench: Planning of Multiple APIs from Various APPs for Complex User Instruction](https://aclanthology.org/2024.emnlp-main.856/) [code](https://github.com/ruleGreen/AppBench) :fire::fire::fire::fire::fire:
 
 - [τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains](https://arxiv.org/abs/2406.12045.pdf) :fire::fire:
 
+### Specialized Assistance:
+
+- [Law] [https://donotpay.com/](https://donotpay.com/)
+- [Finance] Bloomberggpt: A large language model for finance
+- [Finance] FinRobot: an open-source AI agent platform for financial applications using LLMs
+- [Software Development] ChatDev: Communicative Agents for Software Development
+- [Coding] [https://copilot.microsoft.com/](https://copilot.microsoft.com/)
+- [GUI Agent] Gui agents with foundation models: A comprehensive survey
+
+## Affective and Recreational Engagement
+
+- [Replika] [https://replika.com/](https://replika.com/)
+- [WoeBot] https://woebothealth.com/
+- [Wysa] [https://www.wysa.com/](https://www.wysa.com/)
+- Toward large language models as a therapeutic tool: Comparing prompting techniques to improve gpt-delivered problem-solving therapy
 
 ## Others
 
